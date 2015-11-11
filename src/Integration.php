@@ -1,8 +1,10 @@
 <?php
 
-class Pronamic_WP_Pay_Gateways_IDealSimulator_IDealBasic_GatewayIntegration {
+class Pronamic_WP_Pay_Gateways_IDealSimulator_IDealBasic_Integration {
 	public function __construct() {
-		$this->id = 'ideal-simulator-ideal-basic';
+		$this->id       = 'ideal-simulator-ideal-basic';
+		$this->name     = 'iDEAL Simulator - iDEAL Lite / Basic';
+		$this->provider = 'ideal-simulator';
 	}
 
 	public function get_config_factory_class() {
