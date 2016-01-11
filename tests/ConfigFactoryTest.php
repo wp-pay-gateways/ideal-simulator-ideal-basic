@@ -8,7 +8,7 @@
  * @author Remco Tolsma
  * @version 1.0.0
  */
-class Pronamic_WP_Pay_Gateways_FrieslandBank_IDealZakelijk_ConfigFactoryTest extends PHPUnit_Framework_TestCase {
+class Pronamic_WP_Pay_Gateways_IDealSimulator_IDealBasic_ConfigFactoryTest extends PHPUnit_Framework_TestCase {
 	public function test_config() {
 		$factory = new Pronamic_WP_Pay_Gateways_IDealSimulator_IDealBasic_ConfigFactory();
 
