@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "84f2e2764a0ed7ef64f17d9c7d1fe28c",
-    "content-hash": "0b2e5112aa2694b5f5eb53de8c1a0788",
+    "hash": "fce9e18979b4ae67e3af5128e8605f1b",
+    "content-hash": "775d91a74208a0a68c6f65ce3d338c6f",
     "packages": [
         {
             "name": "wp-pay-gateways/common",
@@ -238,13 +238,13 @@
             "name": "xrstf/composer-php52",
             "version": "v1.0.19",
             "source": {
-                "type": "hg",
-                "url": "https://bitbucket.org/xrstf/composer-php52",
+                "type": "git",
+                "url": "https://github.com/composer-php52/composer-php52.git",
                 "reference": "9a4a9c46d0347b39bf9159815301dc66fc25324e"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://bitbucket.org/xrstf/composer-php52/get/9a4a9c46d0347b39bf9159815301dc66fc25324e.zip",
+                "url": "https://api.github.com/repos/composer-php52/composer-php52/zipball/9a4a9c46d0347b39bf9159815301dc66fc25324e",
                 "reference": "9a4a9c46d0347b39bf9159815301dc66fc25324e",
                 "shasum": ""
             },
@@ -812,19 +812,20 @@
         },
         {
             "name": "squizlabs/php_codesniffer",
-            "version": "2.5.1",
+            "version": "2.7.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/squizlabs/PHP_CodeSniffer.git",
-                "reference": "6731851d6aaf1d0d6c58feff1065227b7fda3ba8"
+                "reference": "571e27b6348e5b3a637b2abc82ac0d01e6d7bbed"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/squizlabs/PHP_CodeSniffer/zipball/6731851d6aaf1d0d6c58feff1065227b7fda3ba8",
-                "reference": "6731851d6aaf1d0d6c58feff1065227b7fda3ba8",
+                "url": "https://api.github.com/repos/squizlabs/PHP_CodeSniffer/zipball/571e27b6348e5b3a637b2abc82ac0d01e6d7bbed",
+                "reference": "571e27b6348e5b3a637b2abc82ac0d01e6d7bbed",
                 "shasum": ""
             },
             "require": {
+                "ext-simplexml": "*",
                 "ext-tokenizer": "*",
                 "ext-xmlwriter": "*",
                 "php": ">=5.1.2"
@@ -885,7 +886,7 @@
                 "phpcs",
                 "standards"
             ],
-            "time": "2016-01-19 23:39:10"
+            "time": "2016-09-01 23:53:02"
         },
         {
             "name": "symfony/config",
